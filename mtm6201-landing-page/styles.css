@@ -73,5 +73,43 @@ body{
     background: red;
     color: white;
 }
+/* MEDIA QUERIES 1 */
 
+@media(min-width:700px){
+    .main header{
+        font-size: 40px;
+    }
+    .main header p{
+        font-size: 20px;
+    }
+    .image img{
+        width: 300px;
+        margin-top: 0;
+    }
+    .contact{
+        box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+        padding:1em;
+        max-width: 600px;
+    }
+    .footer{
+        background-color: #fffd8c;
+        margin: 0;
+        width: 100%;
+        padding: 1em;
+        margin-top: 20px;
+    }
+    .contact2 form {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .social a p{
+        text-align:center;
+    }
+}
+
+/* MEDIA QUERIES 2 */
+
+@media(min-width:1000px){
+    
+}
 
