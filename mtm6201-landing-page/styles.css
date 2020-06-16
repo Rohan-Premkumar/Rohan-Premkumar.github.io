@@ -1,7 +1,8 @@
 *{
-    margin: 20px;
     font-family:montserrat;
-    text-align: left;
+}
+body{
+    margin:40px;
 }
 .logo img{
     width: 100px;
@@ -16,9 +17,22 @@
     width: 200px;
     margin-top: 0;
 }
-.contact{
-    background-color:red;
-    border: black;
+#contact.contact {
     margin: 0;
     padding: 0;
+    width:440px;
+    margin-bottom: 40px;
+   text-align: left;
+}
+.contact button{
+    background-color: #57eeab;
+}
+.footer{
+    background-color:#fffd8c;
+    width:100%;
+    text-align: center;
+    padding: 10px;
+}
+.footer-contact button{
+    background-color: #ff8480;
 }
