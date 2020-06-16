@@ -1,8 +1,10 @@
 *{
     font-family:montserrat;
+    box-sizing: border-box;
 }
 body{
     margin:40px;
+    width:auto;
 }
 .logo img{
     width: 100px;
@@ -17,22 +19,59 @@ body{
     width: 200px;
     margin-top: 0;
 }
-#contact.contact {
-    margin: 0;
-    padding: 0;
-    width:440px;
-    margin-bottom: 40px;
-   text-align: left;
+
+/* contact form 1 */
+
+.contact{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding:1em;
+    min-width: 480px;
 }
-.contact button{
+.contact form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.contact form label{
+    display: block;
+}
+.contact form p{
+    margin:0;
+}
+.contact form button, .contact form input, .contact form textarea{
+    width:420px;
+    padding:1em;
+}
+.contact form button{
     background-color: #57eeab;
+    border:0;
 }
+.contact form button:hover{
+    background: green;
+    color: white;
+}
+
+/* contact form 2 */
+
 .footer{
-    background-color:#fffd8c;
-    width:100%;
-    text-align: center;
-    padding: 10px;
+    background-color: #fffd8c;
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+    margin-top: 20px;
 }
-.footer-contact button{
+ .contact2 form {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact2 form button{
+    padding:1em;
+    border:0;
     background-color: #ff8480;
 }
+.contact2 form button:hover{
+    background: red;
+    color: white;
+}
+
+
